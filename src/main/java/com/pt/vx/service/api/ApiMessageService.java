@@ -148,7 +148,7 @@ public class ApiMessageService {
             day = chineseDate.getGregorianDay();
         }
         String horoscope = "白羊";
-      /* if (month == 3 && day >= 21 || month == 4 && day <= 20) {
+      if (month == 3 && day >= 21 || month == 4 && day <= 20) {
             horoscope =  "白羊";
         } else if (month == 4 || month == 5 && day <= 20) {
             horoscope = "金牛";
@@ -177,7 +177,7 @@ public class ApiMessageService {
         }
         return HttpUtil.get(String.format(url, horoscope));
     }
-*/
+
     /**
      * @return 获取历史上今天
      */
