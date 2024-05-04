@@ -14,14 +14,14 @@ public class WeatherConfig {
     /**
      * 天气资源的key
      */
-    public static final String weatherSourceKey = "ffce1bbde91f9dd14c5f55383ea299a8";
+    public static final String weatherSourceKey = "a9b57fd067454a8aa4f51968ae993f98";
 
     /**
      * 天气资源类型
      * 0 为高德地图
      * 1 为和风天气
      */
-    public static Integer weatherSourceType = 0;
+    public static Integer weatherSourceType = 1;
 
     /**
      * 天气类型
