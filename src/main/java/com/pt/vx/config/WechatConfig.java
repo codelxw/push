@@ -44,9 +44,7 @@ public class WechatConfig {
                 "江西省南昌市新建区", //这个人的详细地址
                 "南昌", //这个人在的城市
                 new BirthDay(1999,8,23,true,false,"宝宝生日快乐！！"),
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2024,4,20,true,false,"周年快乐！！！")
+                new BirthDay(2024,4,20,true,true,"在一起啦"),
         ));
 
 
